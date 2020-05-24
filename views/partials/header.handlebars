@@ -1,0 +1,26 @@
+<div class="header navbar-fixed">
+    <nav class="brown">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#!" class="brand-logo">Landing Page</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    {{#if user}}
+                    <li><a href="/logout">LogOut</a></li>
+                    {{else}}
+                    <li><a href="/">Sign In</a></li>
+                    <li><a href="/sign_up">Sign Up</a></li>
+                    {{/if}}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+    {{#if user}}
+    <li><a href="/logout">LogOut</a></li>
+    {{else}}
+    <li><a href="/">Sign In</a></li>
+    <li><a href="/sign_up">Sign Up</a></li>
+    {{/if}}
+</ul>

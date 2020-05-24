@@ -1,0 +1,24 @@
+{{#if success_msg}}
+<div class="row msg">
+    <div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 brown lighten-1 center ">
+        <h5>{{success_msg}}</h5>
+    </div>
+</div>
+{{/if}}
+
+{{#if error_msg}}
+<div class="row msg">
+    <div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 red lighten-2 center ">
+        <h5>{{error_msg}}</h5>
+    </div>
+</div>
+{{/if}}
+
+{{#if error}}
+<div class="row msg">
+    <div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 red lighten-2 center ">
+        <h5>{{error}}</h5>
+    </div>
+</div>
+
+{{/if}}

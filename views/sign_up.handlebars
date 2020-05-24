@@ -1,0 +1,45 @@
+<div class="main-header">
+    <div class="comtainer">
+        <div class="whole-body">
+            <div class="row">
+                <div class="col l4 offset-l4 m6 offset-m3 s10 offset-s1 amber lighten-4">
+                    <div class="row">
+                        <div class="col s4 offset-s4">
+                            <img src="./img/logo.jpg" alt="" class="responsive-img" />
+                            <marquee class="marquee" behavior="" direction="">Sign Up</marquee>
+                        </div>
+                    </div>
+                    <form action="/sign_up" method="POST" class="center">
+                        <div class="row">
+                            <div class="col s8 offset-s2">
+                                <div class="input-field">
+                                    <input type="text" name="name" value="{{name}}" />
+                                    <label for="text">Name</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="email" name="email" value="{{email}}" />
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="password" name="password1" id="" />
+                                    <label for="password">Password</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="password" name="password2" id="" />
+                                    <label for="password">Re-Write Password</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s8 offset-s2">
+                                <button class="btn brown lighten-1 sign-in">
+                                    <i class="fa fa-user-plus"></i> Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

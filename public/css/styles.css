@@ -1,0 +1,29 @@
+.main-header {
+  margin-top: 2vh;
+}
+
+.msg {
+  margin-bottom: 0px;
+}
+
+.responsive-img {
+  /* border: 2px solid #7cb342; */
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.sign-in {
+  width: 100%;
+}
+
+.marquee {
+  font-size: 25px;
+}
+
+.input-field input:focus + label {
+  color: brown !important;
+}
+
+.input-field input:focus {
+  border-bottom: 2px solid brown !important;
+}
